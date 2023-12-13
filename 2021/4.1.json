@@ -1,50 +1,46 @@
 {
-  "VAV box damper position":{
-    "Required?":"R",
-    "Type":"AO\nOR\ntwo DOs ",
-    "Device":"Modulating actuator\nOR\nFloating actuator ",
-    "comment":null
-  },
-  "Discharge airflow":{
-    "Required?":"R",
-    "Type":"AI",
-    "Device":"Differential pressure (DP) transducer connected to flow sensor",
-    "comment":null
-  },
-  "Zone temperature":{
-    "Required?":"R",
-    "Type":"AI",
-    "Device":"Room temperature sensor",
-    "comment":null
-  },
-  "Local override (if applicable)":{
-    "Required?":"A",
-    "Type":"DI",
-    "Device":"Zone thermostat override switch",
-    "comment":null
-  },
-  "Occupancy sensor (if applicable)":{
-    "Required?":"A",
-    "Type":"DI",
-    "Device":"Occupancy sensor",
-    "comment":null
-  },
-  "Window switch (if applicable)":{
-    "Required?":"A",
-    "Type":"DI",
-    "Device":"Window switch",
-    "comment":null
-  },
-  "Zone temperature setpoint adjustment\n(if applicable)":{
-    "Required?":"A",
-    "Type":"AI",
-    "Device":"Zone thermostat adjustment",
-    "comment":null
-  },
-  "Zone CO2 level (if applicable)":{
-    "Required?":"A",
-    "Type":"AI",
-    "Device":"Room CO2 sensor",
-    "comment":null
+  "section": "4.1",
+  "name": "VAV Terminal Unit\u2014Cooling Only",
+  "data": {
+    "VAV box damper position": {
+      "Required?": "R",
+      "Type": "AO\nOR\ntwo DOs ",
+      "Device": "Modulating actuator\nOR\nFloating actuator "
+    },
+    "Discharge airflow": {
+      "Required?": "R",
+      "Type": "AI",
+      "Device": "Differential pressure (DP) transducer connected to flow sensor"
+    },
+    "Zone temperature": {
+      "Required?": "R",
+      "Type": "AI",
+      "Device": "Room temperature sensor"
+    },
+    "Local override (if applicable)": {
+      "Required?": "A",
+      "Type": "DI",
+      "Device": "Zone thermostat override switch"
+    },
+    "Occupancy sensor (if applicable)": {
+      "Required?": "A",
+      "Type": "DI",
+      "Device": "Occupancy sensor"
+    },
+    "Window switch (if applicable)": {
+      "Required?": "A",
+      "Type": "DI",
+      "Device": "Window switch"
+    },
+    "Zone temperature setpoint adjustment\n(if applicable)": {
+      "Required?": "A",
+      "Type": "AI",
+      "Device": "Zone thermostat adjustment"
+    },
+    "Zone CO2 level (if applicable)": {
+      "Required?": "A",
+      "Type": "AI",
+      "Device": "Room CO2 sensor"
+    }
   }
 }
