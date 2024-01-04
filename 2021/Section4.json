@@ -1,0 +1,1157 @@
+{
+  "4.1": {
+    "name": "VAV Terminal Unit\u2014Cooling Only",
+    "data": {
+      "VAV box damper position": {
+        "Required?": "R",
+        "Type": "AO\nOR\ntwo DOs ",
+        "Device": "Modulating actuator\nOR\nFloating actuator "
+      },
+      "Discharge airflow": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Differential pressure (DP) transducer connected to flow sensor"
+      },
+      "Zone temperature": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Room temperature sensor"
+      },
+      "Local override (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Zone thermostat override switch"
+      },
+      "Occupancy sensor (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Occupancy sensor"
+      },
+      "Window switch (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Window switch"
+      },
+      "Zone temperature setpoint adjustment\n(if applicable)": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Zone thermostat adjustment"
+      },
+      "Zone CO2 level (if applicable)": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Room CO2 sensor"
+      }
+    }
+  },
+  "4.2": {
+    "name": "VAV Terminal Unit with Reheat",
+    "data": {
+      "VAV box damper position": {
+        "Required?": "R",
+        "Type": "AO\nOR\ntwo DOs ",
+        "Device": "Modulating actuator\nOR\nFloating actuator "
+      },
+      "Heating signal": {
+        "Required?": "R",
+        "Type": "AO \nOR\ntwo DOs ",
+        "Device": "Modulating valve\nOR\nFloating actuator \nOR\nModulating electric heating coil"
+      },
+      "Discharge airflow": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "DP transducer connected to flow sensor"
+      },
+      "Discharge air temperature (DAT)": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Duct temperature sensor (probe or averaging at designer\u2019s discretion)"
+      },
+      "Zone temperature": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Room temperature sensor"
+      },
+      "Local override (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Zone thermostat override switch"
+      },
+      "Occupancy sensor (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Occupancy sensor "
+      },
+      "Window switch (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Window switch"
+      },
+      "Zone temperature setpoint adjustment\n(if applicable)": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Zone thermostat adjustment"
+      },
+      "Zone CO2 level (if applicable)": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Room CO2 sensor"
+      }
+    }
+  },
+  "4.3": {
+    "name": "Fan-Powered Terminal Unit",
+    "data": {
+      "Fan speed command (if applicable)": {
+        "Required?": "A",
+        "Type": "AO ",
+        "Device": "Connect to electronically commutated motor (ECM)"
+      },
+      "Fan start/stop\n(if separate from fan speed point)": {
+        "Required?": "R",
+        "Type": "DO",
+        "Device": "Connect to ECM"
+      },
+      "Fan status\nOR\nFan speed feedback": {
+        "Required?": "O",
+        "Type": "DI\nOR\nAI",
+        "Device": "Connect to current switch\nOR\nConnect to ECM"
+      },
+      "VAV box damper position": {
+        "Required?": "R",
+        "Type": "AO\nOR\ntwo DOs ",
+        "Device": "Modulating actuator\nOR\nFloating actuator "
+      },
+      "Heating signal": {
+        "Required?": "R",
+        "Type": "AO \nOR\ntwo DOs ",
+        "Device": "Modulating valve\nOR\nFloating actuator \nOR\nModulating electric heating coil"
+      },
+      "Primary airflow": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "DP transducer connected to flow sensor"
+      },
+      "Discharge air temperature (DAT)": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Duct temperature sensor (probe or averaging at designer\u2019s discretion)"
+      },
+      "Zone temperature": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Room temperature sensor"
+      },
+      "Local override (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Zone thermostat override switch"
+      },
+      "Occupancy sensor (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Occupancy sensor "
+      },
+      "Window switch (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Window switch"
+      },
+      "Zone temperature setpoint adjustment\n(if applicable)": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Zone thermostat adjustment"
+      },
+      "Zone CO2 level (if applicable)": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Room CO2 sensor"
+      }
+    }
+  },
+  "4.4": {
+    "name": "Dual-Duct Terminal Unit with Inlet Sensors",
+    "data": {
+      "Cooling damper position": {
+        "Required?": "R",
+        "Type": "AO\nOR\ntwo DOs ",
+        "Device": "Modulating actuator\nOR\nFloating actuator "
+      },
+      "Heating damper position": {
+        "Required?": "R",
+        "Type": "AO\nOR\ntwo DOs ",
+        "Device": "Modulating actuator\nOR\nFloating actuator "
+      },
+      "Cooling airflow": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "DP transducer connected to flow sensor"
+      },
+      "Heating airflow": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "DP transducer connected to flow sensor"
+      },
+      "Zone temperature": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Room temperature sensor"
+      },
+      "Local override (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Zone thermostat override switch"
+      },
+      "Occupancy sensor (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Occupancy sensor"
+      },
+      "Window switch (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Window switch"
+      },
+      "Zone temperature setpoint adjustment\n(if applicable)": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Zone thermostat adjustment"
+      },
+      "Zone CO2 level (if applicable, cold-duct minimum control only)": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Room CO2 sensor"
+      }
+    }
+  },
+  "4.5": {
+    "name": "Dual-Duct Terminal Unit with Discharge Sensor",
+    "data": {
+      "Cooling damper position": {
+        "Required?": "R",
+        "Type": "AO\nOR\ntwo DOs ",
+        "Device": "Modulating actuator\nOR\nFloating actuator "
+      },
+      "Heating damper position": {
+        "Required?": "R",
+        "Type": "AO\nOR\ntwo DOs ",
+        "Device": "Modulating actuator\nOR\nFloating actuator "
+      },
+      "Discharge airflow": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "DP transducer connected to flow sensor"
+      },
+      "Zone temperature": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Room temperature sensor"
+      },
+      "Local override (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Zone thermostat override switch"
+      },
+      "Occupancy sensor (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Occupancy sensor "
+      },
+      "Window switch (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Window switch"
+      },
+      "Zone temperature setpoint adjustment\n(if applicable)": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Zone thermostat adjustment"
+      },
+      "Zone CO2 level (if applicable, mixing control only)": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Room CO2 sensor"
+      }
+    }
+  },
+  "4.7": {
+    "name": "Dual-Fan Dual-Duct Heating VAV Air-Handling Unit",
+    "data": {
+      "Supply fan start/stop": {
+        "Required?": "R",
+        "Type": "DO",
+        "Device": "Connect to VFD Run"
+      },
+      "Supply fan high static alarm reset\n(optional\u2014see control schematic) ": {
+        "Required?": "A",
+        "Type": "DO",
+        "Device": "Dry contact to 120 or 24 V control circuit"
+      },
+      "Supply fan speed": {
+        "Required?": "R",
+        "Type": "AO",
+        "Device": "Connect to VFD Speed"
+      },
+      "Supply fan status ": {
+        "Required?": "",
+        "Type": "DI",
+        "Device": "Connect to VFD Status"
+      },
+      "Supply air temperature ": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Duct temperature sensor\n(probe or averaging at designer\u2019s discretion)"
+      },
+      "Heating signal": {
+        "Required?": "R",
+        "Type": "AO",
+        "Device": "Modulating HW valve\nOR\nModulating electric heating coil"
+      },
+      "Duct static pressure": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "DP transducer down duct"
+      },
+      "Filter pressure drop": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "DP transducer across filter"
+      },
+      "Return air temperature ": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "Duct temperature sensor "
+      }
+    }
+  },
+  "4.8": {
+    "name": "Single-Zone VAV Air-Handling Unit",
+    "data": {
+      "Supply fan start/stop": {
+        "Required?": "R",
+        "Type": "DO",
+        "Device": "Connect to VFD Run"
+      },
+      "Supply fan speed": {
+        "Required?": "R",
+        "Type": "AO",
+        "Device": "Connect to VFD Speed"
+      },
+      "Supply fan status ": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Connect to VFD Status"
+      },
+      "Supply air temperature ": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Duct temperature sensor\n(probe or averaging at designer\u2019s discretion)"
+      },
+      "Outdoor/return air damper": {
+        "Required?": "R",
+        "Type": "AO",
+        "Device": "Modulating actuators"
+      },
+      "Outdoor air temperature": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Temperature sensor at outdoor air intake"
+      },
+      "Mixed air temperature": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "Averaging temperature sensor"
+      },
+      "Return air temperature": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "Duct temperature sensor"
+      },
+      "Filter pressure drop": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "DP transducer across filter"
+      },
+      "Cooling signal": {
+        "Required?": "R",
+        "Type": "AO",
+        "Device": "Modulating CHW valve\nOR\nVariable-capacity compressor"
+      },
+      "Heating signal": {
+        "Required?": "A",
+        "Type": "AO",
+        "Device": "Modulating HW valve\nOR\nModulating electric heating coil"
+      },
+      "Zone temperature ": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Room temperature sensor"
+      },
+      "Local override (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Zone thermostat override switch"
+      },
+      "Occupancy sensor (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Occupancy sensor "
+      },
+      "Window switch (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Window switch"
+      },
+      "Zone temperature setpoint adjustment\n(if applicable)": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Zone thermostat adjustment"
+      },
+      "Zone CO2 level (if applicable)": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Room CO2 sensor"
+      },
+      "For units with an AFMS, include the following point": {
+        "Required?": "For units with an AFMS, include the following point",
+        "Type": "For units with an AFMS, include the following point",
+        "Device": "For units with an AFMS, include the following point"
+      },
+      "Outdoor Airflow": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Airflow measurement station"
+      },
+      "Relief damper": {
+        "Required?": "A",
+        "Type": "AO",
+        "Device": "Modulating actuator"
+      },
+      "For units with a relief fan, include the following four points": {
+        "Required?": "For units with a relief fan, include the following four points",
+        "Type": "For units with a relief fan, include the following four points",
+        "Device": "For units with a relief fan, include the following four points"
+      },
+      "Relief-fan start/stop": {
+        "Required?": "A",
+        "Type": "DO",
+        "Device": "Connect to VFD Run"
+      },
+      "Relief-fan status ": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Connect to VFD Status"
+      },
+      "Relief-fan speed": {
+        "Required?": "A",
+        "Type": "AO",
+        "Device": "Connect to VFD Speed"
+      },
+      "Relief-damper open/close": {
+        "Required?": "A",
+        "Type": "DO",
+        "Device": "Two position actuator"
+      },
+      "Return fan start/stop": {
+        "Required?": "A",
+        "Type": "DO",
+        "Device": "Connect to VFD Run"
+      },
+      "Return-fan status": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Current VFD Status"
+      },
+      "Return-fan speed": {
+        "Required?": "A",
+        "Type": "AO",
+        "Device": "Connect to VFD Speed"
+      },
+      "Exhaust air damper\n(if applicable\u2014damper may be barometric)": {
+        "Required?": "A",
+        "Type": "DO",
+        "Device": "Two position actuator"
+      },
+      "Return Fan Discharge Static Pressure": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Differential pressure transducer at fan"
+      },
+      "Exhaust Air Damper": {
+        "Required?": "A",
+        "Type": "AO",
+        "Device": "Modulating actuator"
+      },
+      "Building Static Pressure": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Differential pressure transducer between representative space and outdoors"
+      }
+    }
+  },
+  "4.9": {
+    "name": "General Constant Speed Exhaust Fan",
+    "data": {
+      "Exhaust Fan Start/Stop": {
+        "Required?": "R",
+        "Type": "DO",
+        "Device": "Connect to motor starter"
+      },
+      "Exhaust Fan Status ": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Current switch"
+      },
+      "Zone Temperature": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Room temperature sensor"
+      }
+    }
+  },
+  "4.10.1": {
+    "name": "Chillers",
+    "data": {
+      "CH on/off": {
+        "Required?": "R",
+        "Type": "DO",
+        "Device": "DI on chiller control panel or through network interface; typ. each chiller"
+      },
+      "Chiller status": {
+        "Required?": "R",
+        "Type": "DI",
+        "Device": "DO on chiller control panel or through network interface; typ. each chiller"
+      },
+      "CHWST Setpoint Reset": {
+        "Required?": "R",
+        "Type": "AO",
+        "Device": "AI on chiller control panel or through network interface; typ. each chiller"
+      },
+      "Chiller Fault Code": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "From chiller controller through network interface; typ. each chiller"
+      },
+      "CH CHW isolation valve": {
+        "Required?": "A",
+        "Type": "AO or DO",
+        "Device": "Modulating or 2-position butterfly valve, line size; typ. each chiller"
+      },
+      "CH CHW isolation valve closed end switch": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Valve end switch contact; typ. each chiller"
+      },
+      "CH CHW isolation valve open end switch": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Valve end switch contact; typ. each chiller"
+      },
+      "CH CHW isolation valve position feedback": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "Valve position feedback contact; typ. each chiller"
+      },
+      "CH CHW bypass valve": {
+        "Required?": "A",
+        "Type": "DO",
+        "Device": "2-position butterfly valve, line size; typ. each chiller for series chiller plants; only one for parallel chiller plants"
+      },
+      "CH CW isolation valve": {
+        "Required?": "A",
+        "Type": "AO or DO",
+        "Device": "Modulating or 2-position butterfly valve, line size; typ. each chiller"
+      },
+      "CH CW isolation valve closed end switch": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Valve end switch contact; typ. each chiller"
+      },
+      "CH CW isolation valve open end switch": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Valve end switch contact; typ. each chiller"
+      },
+      "CH CW isolation valve position feedback": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "Valve position feedback contact; typ. each chiller"
+      },
+      "CH Demand Limit": {
+        "Required?": "A",
+        "Type": "AO",
+        "Device": "AI on chiller control panel or through network interface; typ. each chiller"
+      },
+      "Head pressure control signal from CH": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "AO from chiller control panel; typ. each chiller"
+      },
+      "CH CHW supply temperature": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "From chiller controller via interface or via temperature sensor; typ. each chiller"
+      },
+      "CH CW return temperature": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "From chiller controller via interface or via temperature sensor; typ. each chiller"
+      },
+      "CH CHW return temperature": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "From chiller controller via interface or via temperature sensor; typ. each chiller"
+      },
+      "CH CW supply temperature": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "From chiller controller via interface or via temperature sensor; typ. each chiller"
+      },
+      "CH evaporator buddle CHW differential pressure": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "From chiller controller via interface or via temperature sensor; typ. each chiller"
+      },
+      "CH condenser buddle CW differential pressure": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "From chiller controller via interface or via temperature sensor; typ. each chiller"
+      },
+      "CH refrigerant evaporator temperature": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "From chiller controller via interface; typ. each chiller"
+      },
+      "CH refrigerant condenser temperature": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "From chiller controller via interface; typ. each chiller"
+      },
+      "Chiller local/auto switch": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "From chiller controller via interface; typ. each chiller"
+      }
+    }
+  },
+  "4.10.2": {
+    "name": "Chilled Water Pumps",
+    "data": {
+      "CHWP Start": {
+        "Required?": "R",
+        "Type": "DO",
+        "Device": "Connect to VFD Run or Starter Contact; typ. each CHWP"
+      },
+      "CHWP Status": {
+        "Required?": "R",
+        "Type": "DI",
+        "Device": "Status through VFD interface, VFD status contact or current switch; typ. each CHWP"
+      },
+      "CHWP Speed": {
+        "Required?": "A",
+        "Type": "AO",
+        "Device": "Connect to VFD Speed on all CHW pumps controlled to same speed"
+      },
+      "CHW Differential Pressure": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Differential Pressure Transducer"
+      },
+      "CHWP Alarm": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Fault point through VFD interface or programmed VFD contact; typ. each CHWP"
+      }
+    }
+  },
+  "4.10.3": {
+    "name": "Primary CHW Loop",
+    "data": {
+      "CHW supply or return flow": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Flow meter"
+      },
+      "CHW Min Flow Bypass Valve": {
+        "Required?": "A",
+        "Type": "AO",
+        "Device": "Modulating valve sized for minimum flow of one chiller"
+      },
+      "CHW supply temperature": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      },
+      "Plant CHW return temperature": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      },
+      "Loop CHW return temperature": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      },
+      "CHW system gauge pressure": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "Gauge pressure transducer"
+      },
+      "Decoupler flow": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "Bi-directional flow meter"
+      }
+    }
+  },
+  "4.10.4": {
+    "name": "Secondary CHW Loop",
+    "data": {
+      "Secondary CHW supply temperature": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      },
+      "Secondary CHW return temperature": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      },
+      "Secondary CHW supply or return flow": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Flow meter"
+      }
+    }
+  },
+  "4.10.5": {
+    "name": "Condenser Water Pumps",
+    "data": {
+      "CWP Start": {
+        "Required?": "R",
+        "Type": "DO",
+        "Device": "Connect to VFD Run or Starter Contact; typ. each CWP"
+      },
+      "CWP Status": {
+        "Required?": "R",
+        "Type": "DI",
+        "Device": "Status through VFD interface, VFD status contact or current switch; typ. each CWP"
+      },
+      "CWP Speed": {
+        "Required?": "A",
+        "Type": "AO",
+        "Device": "Connect to VFD Speed on all CWPs"
+      },
+      "CWP Alarm": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Fault point through VFD interface or programmed VFD contact; typ. each CWP"
+      }
+    }
+  },
+  "4.10.6": {
+    "name": "Cooling Towers",
+    "data": {
+      "Start CT": {
+        "Required?": "R",
+        "Type": "DO",
+        "Device": "Connect to VFD Run; typ. each tower"
+      },
+      "CT Status": {
+        "Required?": "R",
+        "Type": "DI",
+        "Device": "Status through VFD interface, VFD status contact, or current switch; typ. each tower"
+      },
+      "CT Speed": {
+        "Required?": "R",
+        "Type": "AO",
+        "Device": "Connect to VFD Speed on all cooling towers"
+      },
+      "CT Alarm": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Fault point through VFD interface or programmed VFD contact; typ. each CT"
+      },
+      "Tower basin level": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Level sensor mounted in standpipe connected to equalizer"
+      },
+      "CT inlet (and outlet) isolation valve": {
+        "Required?": "A",
+        "Type": "DO",
+        "Device": "2-position line size valve; typ. each tower"
+      },
+      "CT inlet (and outlet) isolation valve closed end switch": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Valve end switch contact; typ. each tower"
+      },
+      "CT inlet (and outlet) isolation valve open end switch": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Valve end switch contact; typ. each tower"
+      },
+      "CT bypass valve to cold water basin": {
+        "Required?": "A",
+        "Type": "DO",
+        "Device": "2-position line size 3-way valve"
+      },
+      "CT basin heater enable": {
+        "Required?": "A",
+        "Type": "DO",
+        "Device": "Connect to basin heater enable contact; typ. each tower"
+      },
+      "CT basin heater status": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Connect to basin heater status contact; typ. each tower"
+      },
+      "CT basin temperature": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Temperature sensor; typ. each tower"
+      },
+      "Piping heat trace enable": {
+        "Required?": "A",
+        "Type": "DO",
+        "Device": "Connect to heat trace enable contact"
+      },
+      "Piping heat trace status": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Connect to heat trace status contact"
+      }
+    }
+  },
+  "4.10.7": {
+    "name": "Condenser Water Loop",
+    "data": {
+      "Common CW supply temperature from towers": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      },
+      "Common CW return temperature to towers": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      },
+      "Makeup water valve": {
+        "Required?": "R",
+        "Type": "DO",
+        "Device": "Line sized ball valve"
+      }
+    }
+  },
+  "4.10.8": {
+    "name": "Waterside Economizer",
+    "data": {
+      "WSE HX CW isolation valve": {
+        "Required?": "R",
+        "Type": "DO",
+        "Device": "2-position line size valve"
+      },
+      "WSE HX CW isolation valve closed end switch": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Valve position feedback contact"
+      },
+      "WSE HX CW isolation valve open end switch": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Valve position feedback contact"
+      },
+      "WSE CW return temperature": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      },
+      "CHW return temperature before WSE": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      },
+      "CHW return temperature after WSE": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      },
+      "WSE CHW bypass valve": {
+        "Required?": "A",
+        "Type": "AO",
+        "Device": "Modulating butterfly valve, line size"
+      },
+      "WSE CHW differential pressure": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Differential pressure transducer"
+      },
+      "CHW HX Pump Start": {
+        "Required?": "A",
+        "Type": "DO",
+        "Device": "Connect to VFD Run"
+      },
+      "CHW HX Pump Speed": {
+        "Required?": "A",
+        "Type": "AO",
+        "Device": "Connect to VFD Speed"
+      },
+      "CHW HX Pump Status": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Status through VFD interface, VFD status contact or current switch"
+      },
+      "CHW HX Pump Alarm": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Fault point through VFD interface or programmed VFD contact; typ. each HX pump."
+      },
+      "WSE entering CHW temperature": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      }
+    }
+  },
+  "4.10.9": {
+    "name": "Miscellaneous Plant Points",
+    "data": {
+      "Outdoor Air Temperature": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      },
+      "Relative humidity sensor": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Relative humidity sensor"
+      },
+      "Emergency Chiller Off Switch": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Connect to break glass switch contacts located outside chiller room primary entry"
+      }
+    }
+  },
+  "4.11.1": {
+    "name": "Boilers",
+    "data": {
+      "Boiler enable": {
+        "Required?": "R",
+        "Type": "DO",
+        "Device": "Connect to boiler enable contact; typ. each boiler"
+      },
+      "HW supply temperature setpoint": {
+        "Required?": "R",
+        "Type": "AO",
+        "Device": "AI to boiler control panels or AI through boiler network interfaces."
+      },
+      "Boiler firing rate": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "Firing rate from boiler controller (may be via network connection rather than hardwired). Use gas valve position if firing rate is not known. Typ. each boiler."
+      },
+      "Boiler isolation valve": {
+        "Required?": "A",
+        "Type": "DO",
+        "Device": "2-position line sized valve; typ. each boiler"
+      },
+      "Boiler isolation valve closed end switch": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Valve end switch contact; typ. each boiler"
+      },
+      "Boiler isolation valve open end switch": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Valve end switch contact; typ. each boiler"
+      },
+      "Boiler natural gas flow": {
+        "Required?": "O",
+        "Type": "DI (pulse)",
+        "Device": "Flow meter serving all boilers"
+      }
+    }
+  },
+  "4.11.2": {
+    "name": "HW Pumps",
+    "data": {
+      "HWP Start": {
+        "Required?": "R",
+        "Type": "DO",
+        "Device": "Connect to VFD Run or Starter Contact; typ. each HWP"
+      },
+      "HWP Status": {
+        "Required?": "R",
+        "Type": "DI",
+        "Device": "Status through VFD interface or VFD status contact or current switch; typ. each HWP"
+      },
+      "HWP Speed": {
+        "Required?": "A",
+        "Type": "AO",
+        "Device": "Connect to VFD Speed on all HW pumps controlled to same speed"
+      },
+      "HW Differential Pressure": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Differential Pressure Transducer"
+      },
+      "HWP Alarm": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Fault point through VFD interface or programmed VFD contact; typ. each HWP"
+      }
+    }
+  },
+  "4.11.3": {
+    "name": "Primary HW Loop",
+    "data": {
+      "HW supply or return flow": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Flow meter"
+      },
+      "HW Min flow bypass valve": {
+        "Required?": "A",
+        "Type": "AO",
+        "Device": "Modulating valve sized for minimum flow of one boiler"
+      },
+      "HW supply temperature": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      },
+      "Plant HW return temperature": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      },
+      "Loop HW return temperature": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      },
+      "HW system gauge pressure": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "Gauge pressure transducer"
+      },
+      "Decoupler flow": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "Bi-directional flow meter"
+      }
+    }
+  },
+  "4.11.4": {
+    "name": "Secondary HW Loop",
+    "data": {
+      "Secondary HW supply temperature": {
+        "Re-quired?": "R",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      },
+      "Secondary HW return temperature": {
+        "Re-quired?": "R",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      },
+      "Secondary HW supply or return flow": {
+        "Re-quired?": "A",
+        "Type": "AI",
+        "Device": "Flow meter"
+      },
+      "Intermediate HW supply temperature": {
+        "Re-quired?": "A",
+        "Type": "AI",
+        "Device": "Temperature sensor"
+      }
+    }
+  },
+  "4.12": {
+    "name": "Fan Coil Unit",
+    "data": {
+      "Fan start/stop": {
+        "Required?": "R",
+        "Type": "DO",
+        "Device": "Connect to VFD Run or to contactor for ECMs"
+      },
+      "Fan speed": {
+        "Required?": "R",
+        "Type": "AO",
+        "Device": "Connect to VFD or ECM Speed "
+      },
+      "Supply fan status ": {
+        "Required?": "O",
+        "Type": "DI",
+        "Device": "Connect to VFD Status or ECM Status or to current switch "
+      },
+      "Supply air temperature ": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Duct temperature sensor"
+      },
+      "Return air temperature": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "Duct temperature sensor"
+      },
+      "Filter pressure drop": {
+        "Required?": "O",
+        "Type": "AI",
+        "Device": "DP transducer across filter"
+      },
+      "For FCUs with a cooling coil, include the following point:": {
+        "Required?": "For FCUs with a cooling coil, include the following point:",
+        "Type": "For FCUs with a cooling coil, include the following point:",
+        "Device": "For FCUs with a cooling coil, include the following point:"
+      },
+      "Cooling signal": {
+        "Required?": "R",
+        "Type": "AO",
+        "Device": "Modulating CHW valve\nOR\nFloating actuator \nOR\nVariable-capacity compressor"
+      },
+      "For FCUs with a heating coil, include the following point:": {
+        "Required?": "For FCUs with a heating coil, include the following point:",
+        "Type": "For FCUs with a heating coil, include the following point:",
+        "Device": "For FCUs with a heating coil, include the following point:"
+      },
+      "Heating signal": {
+        "Required?": "R",
+        "Type": "AO",
+        "Device": "Modulating valve\nOR\nFloating actuator \nOR\nModulating electric heating coil \nOR\nVariable-capacity heat pump compressor"
+      },
+      "Zone temperature ": {
+        "Required?": "R",
+        "Type": "AI",
+        "Device": "Room temperature sensor"
+      },
+      "Local override (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Zone thermostat override switch"
+      },
+      "Occupancy sensor (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Occupancy sensor "
+      },
+      "Window switch (if applicable)": {
+        "Required?": "A",
+        "Type": "DI",
+        "Device": "Window switch"
+      },
+      "Zone temperature setpoint adjustment\n(if applicable)": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Zone thermostat adjustment"
+      },
+      "Zone CO2 level (if applicable)": {
+        "Required?": "A",
+        "Type": "AI",
+        "Device": "Room CO2 sensor"
+      }
+    }
+  }
+}
