@@ -4,8 +4,8 @@
     "data": {
       "VAV box damper position": {
         "Required?": "R",
-        "Type": "AO\nOR\ntwo DOs ",
-        "Device": "Modulating actuator\nOR\nFloating actuator "
+        "Type": "AO OR two DOs ",
+        "Device": "Modulating actuator OR Floating actuator "
       },
       "Discharge airflow": {
         "Required?": "R",
@@ -49,13 +49,13 @@
     "data": {
       "VAV box damper position": {
         "Required?": "R",
-        "Type": "AO\nOR\ntwo DOs ",
-        "Device": "Modulating actuator\nOR\nFloating actuator "
+        "Type": "AO OR two DOs ",
+        "Device": "Modulating actuator OR Floating actuator "
       },
       "Heating signal": {
         "Required?": "R",
-        "Type": "AO \nOR\ntwo DOs ",
-        "Device": "Modulating valve\nOR\nFloating actuator \nOR\nModulating electric heating coil"
+        "Type": "AO  OR two DOs ",
+        "Device": "Modulating valve OR Floating actuator  OR Modulating electric heating coil"
       },
       "Discharge airflow": {
         "Required?": "R",
@@ -114,18 +114,18 @@
       },
       "Fan status\nOR\nFan speed feedback": {
         "Required?": "O",
-        "Type": "DI\nOR\nAI",
-        "Device": "Connect to current switch\nOR\nConnect to ECM"
+        "Type": "DI OR AI",
+        "Device": "Connect to current switch OR Connect to ECM"
       },
       "VAV box damper position": {
         "Required?": "R",
-        "Type": "AO\nOR\ntwo DOs ",
-        "Device": "Modulating actuator\nOR\nFloating actuator "
+        "Type": "AO OR two DOs ",
+        "Device": "Modulating actuator OR Floating actuator "
       },
       "Heating signal": {
         "Required?": "R",
-        "Type": "AO \nOR\ntwo DOs ",
-        "Device": "Modulating valve\nOR\nFloating actuator \nOR\nModulating electric heating coil"
+        "Type": "AO  OR two DOs ",
+        "Device": "Modulating valve OR Floating actuator  OR Modulating electric heating coil"
       },
       "Primary airflow": {
         "Required?": "R",
@@ -174,13 +174,13 @@
     "data": {
       "Cooling damper position": {
         "Required?": "R",
-        "Type": "AO\nOR\ntwo DOs ",
-        "Device": "Modulating actuator\nOR\nFloating actuator "
+        "Type": "AO OR two DOs ",
+        "Device": "Modulating actuator OR Floating actuator "
       },
       "Heating damper position": {
         "Required?": "R",
-        "Type": "AO\nOR\ntwo DOs ",
-        "Device": "Modulating actuator\nOR\nFloating actuator "
+        "Type": "AO OR two DOs ",
+        "Device": "Modulating actuator OR Floating actuator "
       },
       "Cooling airflow": {
         "Required?": "R",
@@ -229,13 +229,13 @@
     "data": {
       "Cooling damper position": {
         "Required?": "R",
-        "Type": "AO\nOR\ntwo DOs ",
-        "Device": "Modulating actuator\nOR\nFloating actuator "
+        "Type": "AO OR two DOs ",
+        "Device": "Modulating actuator OR Floating actuator "
       },
       "Heating damper position": {
         "Required?": "R",
-        "Type": "AO\nOR\ntwo DOs ",
-        "Device": "Modulating actuator\nOR\nFloating actuator "
+        "Type": "AO OR two DOs ",
+        "Device": "Modulating actuator OR Floating actuator "
       },
       "Discharge airflow": {
         "Required?": "R",
@@ -300,12 +300,12 @@
       "Supply air temperature ": {
         "Required?": "R",
         "Type": "AI",
-        "Device": "Duct temperature sensor\n(probe or averaging at designer\u2019s discretion)"
+        "Device": "Duct temperature sensor (probe or averaging at designer\u2019s discretion)"
       },
       "Heating signal": {
         "Required?": "R",
         "Type": "AO",
-        "Device": "Modulating HW valve\nOR\nModulating electric heating coil"
+        "Device": "Modulating HW valve OR Modulating electric heating coil"
       },
       "Duct static pressure": {
         "Required?": "R",
@@ -345,7 +345,7 @@
       "Supply air temperature ": {
         "Required?": "R",
         "Type": "AI",
-        "Device": "Duct temperature sensor\n(probe or averaging at designer\u2019s discretion)"
+        "Device": "Duct temperature sensor (probe or averaging at designer\u2019s discretion)"
       },
       "Outdoor/return air damper": {
         "Required?": "R",
@@ -375,12 +375,12 @@
       "Cooling signal": {
         "Required?": "R",
         "Type": "AO",
-        "Device": "Modulating CHW valve\nOR\nVariable-capacity compressor"
+        "Device": "Modulating CHW valve OR Variable-capacity compressor"
       },
       "Heating signal": {
         "Required?": "A",
         "Type": "AO",
-        "Device": "Modulating HW valve\nOR\nModulating electric heating coil"
+        "Device": "Modulating HW valve OR Modulating electric heating coil"
       },
       "Zone temperature ": {
         "Required?": "R",
@@ -1110,7 +1110,7 @@
       "Cooling signal": {
         "Required?": "R",
         "Type": "AO",
-        "Device": "Modulating CHW valve\nOR\nFloating actuator \nOR\nVariable-capacity compressor"
+        "Device": "Modulating CHW valve OR Floating actuator  OR Variable-capacity compressor"
       },
       "For FCUs with a heating coil, include the following point:": {
         "Required?": "For FCUs with a heating coil, include the following point:",
@@ -1120,7 +1120,7 @@
       "Heating signal": {
         "Required?": "R",
         "Type": "AO",
-        "Device": "Modulating valve\nOR\nFloating actuator \nOR\nModulating electric heating coil \nOR\nVariable-capacity heat pump compressor"
+        "Device": "Modulating valve OR Floating actuator  OR Modulating electric heating coil  OR Variable-capacity heat pump compressor"
       },
       "Zone temperature ": {
         "Required?": "R",
