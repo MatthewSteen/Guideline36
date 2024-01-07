@@ -4,8 +4,8 @@
     "data": {
       "VAV box damper position": {
         "Required?": "R",
-        "Type": "AO OR two DOs ",
-        "Device": "Modulating actuator OR Floating actuator "
+        "Type": "AO OR two DOs",
+        "Device": "Modulating actuator OR Floating actuator"
       },
       "Discharge airflow": {
         "Required?": "R",
@@ -32,7 +32,7 @@
         "Type": "DI",
         "Device": "Window switch"
       },
-      "Zone temperature setpoint adjustment\n(if applicable)": {
+      "Zone temperature setpoint adjustment (if applicable)": {
         "Required?": "A",
         "Type": "AI",
         "Device": "Zone thermostat adjustment"
@@ -49,13 +49,13 @@
     "data": {
       "VAV box damper position": {
         "Required?": "R",
-        "Type": "AO OR two DOs ",
-        "Device": "Modulating actuator OR Floating actuator "
+        "Type": "AO OR two DOs",
+        "Device": "Modulating actuator OR Floating actuator"
       },
       "Heating signal": {
         "Required?": "R",
-        "Type": "AO  OR two DOs ",
-        "Device": "Modulating valve OR Floating actuator  OR Modulating electric heating coil"
+        "Type": "AO OR two DOs",
+        "Device": "Modulating valve OR Floating actuator OR Modulating electric heating coil"
       },
       "Discharge airflow": {
         "Required?": "R",
@@ -80,14 +80,14 @@
       "Occupancy sensor (if applicable)": {
         "Required?": "A",
         "Type": "DI",
-        "Device": "Occupancy sensor "
+        "Device": "Occupancy sensor"
       },
       "Window switch (if applicable)": {
         "Required?": "A",
         "Type": "DI",
         "Device": "Window switch"
       },
-      "Zone temperature setpoint adjustment\n(if applicable)": {
+      "Zone temperature setpoint adjustment (if applicable)": {
         "Required?": "A",
         "Type": "AI",
         "Device": "Zone thermostat adjustment"
@@ -104,28 +104,28 @@
     "data": {
       "Fan speed command (if applicable)": {
         "Required?": "A",
-        "Type": "AO ",
+        "Type": "AO",
         "Device": "Connect to electronically commutated motor (ECM)"
       },
-      "Fan start/stop\n(if separate from fan speed point)": {
+      "Fan start/stop (if separate from fan speed point)": {
         "Required?": "R",
         "Type": "DO",
         "Device": "Connect to ECM"
       },
-      "Fan status\nOR\nFan speed feedback": {
+      "Fan status OR Fan speed feedback": {
         "Required?": "O",
         "Type": "DI OR AI",
         "Device": "Connect to current switch OR Connect to ECM"
       },
       "VAV box damper position": {
         "Required?": "R",
-        "Type": "AO OR two DOs ",
-        "Device": "Modulating actuator OR Floating actuator "
+        "Type": "AO OR two DOs",
+        "Device": "Modulating actuator OR Floating actuator"
       },
       "Heating signal": {
         "Required?": "R",
-        "Type": "AO  OR two DOs ",
-        "Device": "Modulating valve OR Floating actuator  OR Modulating electric heating coil"
+        "Type": "AO OR two DOs",
+        "Device": "Modulating valve OR Floating actuator OR Modulating electric heating coil"
       },
       "Primary airflow": {
         "Required?": "R",
@@ -150,14 +150,14 @@
       "Occupancy sensor (if applicable)": {
         "Required?": "A",
         "Type": "DI",
-        "Device": "Occupancy sensor "
+        "Device": "Occupancy sensor"
       },
       "Window switch (if applicable)": {
         "Required?": "A",
         "Type": "DI",
         "Device": "Window switch"
       },
-      "Zone temperature setpoint adjustment\n(if applicable)": {
+      "Zone temperature setpoint adjustment (if applicable)": {
         "Required?": "A",
         "Type": "AI",
         "Device": "Zone thermostat adjustment"
@@ -174,13 +174,13 @@
     "data": {
       "Cooling damper position": {
         "Required?": "R",
-        "Type": "AO OR two DOs ",
-        "Device": "Modulating actuator OR Floating actuator "
+        "Type": "AO OR two DOs",
+        "Device": "Modulating actuator OR Floating actuator"
       },
       "Heating damper position": {
         "Required?": "R",
-        "Type": "AO OR two DOs ",
-        "Device": "Modulating actuator OR Floating actuator "
+        "Type": "AO OR two DOs",
+        "Device": "Modulating actuator OR Floating actuator"
       },
       "Cooling airflow": {
         "Required?": "R",
@@ -212,7 +212,7 @@
         "Type": "DI",
         "Device": "Window switch"
       },
-      "Zone temperature setpoint adjustment\n(if applicable)": {
+      "Zone temperature setpoint adjustment (if applicable)": {
         "Required?": "A",
         "Type": "AI",
         "Device": "Zone thermostat adjustment"
@@ -229,13 +229,13 @@
     "data": {
       "Cooling damper position": {
         "Required?": "R",
-        "Type": "AO OR two DOs ",
-        "Device": "Modulating actuator OR Floating actuator "
+        "Type": "AO OR two DOs",
+        "Device": "Modulating actuator OR Floating actuator"
       },
       "Heating damper position": {
         "Required?": "R",
-        "Type": "AO OR two DOs ",
-        "Device": "Modulating actuator OR Floating actuator "
+        "Type": "AO OR two DOs",
+        "Device": "Modulating actuator OR Floating actuator"
       },
       "Discharge airflow": {
         "Required?": "R",
@@ -255,14 +255,14 @@
       "Occupancy sensor (if applicable)": {
         "Required?": "A",
         "Type": "DI",
-        "Device": "Occupancy sensor "
+        "Device": "Occupancy sensor"
       },
       "Window switch (if applicable)": {
         "Required?": "A",
         "Type": "DI",
         "Device": "Window switch"
       },
-      "Zone temperature setpoint adjustment\n(if applicable)": {
+      "Zone temperature setpoint adjustment (if applicable)": {
         "Required?": "A",
         "Type": "AI",
         "Device": "Zone thermostat adjustment"
@@ -282,7 +282,7 @@
         "Type": "DO",
         "Device": "Connect to VFD Run"
       },
-      "Supply fan high static alarm reset\n(optional\u2014see control schematic) ": {
+      "Supply fan high static alarm reset (optional\u2014see control schematic)": {
         "Required?": "A",
         "Type": "DO",
         "Device": "Dry contact to 120 or 24 V control circuit"
@@ -292,12 +292,12 @@
         "Type": "AO",
         "Device": "Connect to VFD Speed"
       },
-      "Supply fan status ": {
+      "Supply fan status": {
         "Required?": "",
         "Type": "DI",
         "Device": "Connect to VFD Status"
       },
-      "Supply air temperature ": {
+      "Supply air temperature": {
         "Required?": "R",
         "Type": "AI",
         "Device": "Duct temperature sensor (probe or averaging at designer\u2019s discretion)"
@@ -317,10 +317,10 @@
         "Type": "AI",
         "Device": "DP transducer across filter"
       },
-      "Return air temperature ": {
+      "Return air temperature": {
         "Required?": "O",
         "Type": "AI",
-        "Device": "Duct temperature sensor "
+        "Device": "Duct temperature sensor"
       }
     }
   },
@@ -337,12 +337,12 @@
         "Type": "AO",
         "Device": "Connect to VFD Speed"
       },
-      "Supply fan status ": {
+      "Supply fan status": {
         "Required?": "O",
         "Type": "DI",
         "Device": "Connect to VFD Status"
       },
-      "Supply air temperature ": {
+      "Supply air temperature": {
         "Required?": "R",
         "Type": "AI",
         "Device": "Duct temperature sensor (probe or averaging at designer\u2019s discretion)"
@@ -382,7 +382,7 @@
         "Type": "AO",
         "Device": "Modulating HW valve OR Modulating electric heating coil"
       },
-      "Zone temperature ": {
+      "Zone temperature": {
         "Required?": "R",
         "Type": "AI",
         "Device": "Room temperature sensor"
@@ -395,14 +395,14 @@
       "Occupancy sensor (if applicable)": {
         "Required?": "A",
         "Type": "DI",
-        "Device": "Occupancy sensor "
+        "Device": "Occupancy sensor"
       },
       "Window switch (if applicable)": {
         "Required?": "A",
         "Type": "DI",
         "Device": "Window switch"
       },
-      "Zone temperature setpoint adjustment\n(if applicable)": {
+      "Zone temperature setpoint adjustment (if applicable)": {
         "Required?": "A",
         "Type": "AI",
         "Device": "Zone thermostat adjustment"
@@ -422,6 +422,11 @@
         "Type": "AI",
         "Device": "Airflow measurement station"
       },
+      "For units with actuated relief dampers but no relief fan, include the following points.": {
+        "Required?": "For units with actuated relief dampers but no relief fan, include the following points.",
+        "Type": "For units with actuated relief dampers but no relief fan, include the following points.",
+        "Device": "For units with actuated relief dampers but no relief fan, include the following points."
+      },
       "Relief damper": {
         "Required?": "A",
         "Type": "AO",
@@ -437,7 +442,7 @@
         "Type": "DO",
         "Device": "Connect to VFD Run"
       },
-      "Relief-fan status ": {
+      "Relief-fan status": {
         "Required?": "O",
         "Type": "DI",
         "Device": "Connect to VFD Status"
@@ -451,6 +456,11 @@
         "Required?": "A",
         "Type": "DO",
         "Device": "Two position actuator"
+      },
+      "For units with a return fan, include the following three points.": {
+        "Required?": "For units with a return fan, include the following three points.",
+        "Type": "For units with a return fan, include the following three points.",
+        "Device": "For units with a return fan, include the following three points."
       },
       "Return fan start/stop": {
         "Required?": "A",
@@ -467,10 +477,20 @@
         "Type": "AO",
         "Device": "Connect to VFD Speed"
       },
-      "Exhaust air damper\n(if applicable\u2014damper may be barometric)": {
+      "For units with a return fan and speed tracking control, include the following point.": {
+        "Required?": "For units with a return fan and speed tracking control, include the following point.",
+        "Type": "For units with a return fan and speed tracking control, include the following point.",
+        "Device": "For units with a return fan and speed tracking control, include the following point."
+      },
+      "Exhaust air damper (if applicable\u2014damper may be barometric)": {
         "Required?": "A",
         "Type": "DO",
         "Device": "Two position actuator"
+      },
+      "For units with a return fan and direct building pressure control, include the following two points.": {
+        "Required?": "For units with a return fan and direct building pressure control, include the following two points.",
+        "Type": "For units with a return fan and direct building pressure control, include the following two points.",
+        "Device": "For units with a return fan and direct building pressure control, include the following two points."
       },
       "Return Fan Discharge Static Pressure": {
         "Required?": "A",
@@ -481,6 +501,11 @@
         "Required?": "A",
         "Type": "AO",
         "Device": "Modulating actuator"
+      },
+      "For units with direct building pressure control, include the following point.": {
+        "Required?": "For units with direct building pressure control, include the following point.",
+        "Type": "For units with direct building pressure control, include the following point.",
+        "Device": "For units with direct building pressure control, include the following point."
       },
       "Building Static Pressure": {
         "Required?": "A",
@@ -497,140 +522,20 @@
         "Type": "DO",
         "Device": "Connect to motor starter"
       },
-      "Exhaust Fan Status ": {
+      "Exhaust Fan Status": {
         "Required?": "O",
         "Type": "DI",
         "Device": "Current switch"
+      },
+      "For exhaust fans controlled by temperature, include the following point.": {
+        "Required?": "For exhaust fans controlled by temperature, include the following point.",
+        "Type": "For exhaust fans controlled by temperature, include the following point.",
+        "Device": "For exhaust fans controlled by temperature, include the following point."
       },
       "Zone Temperature": {
         "Required?": "A",
         "Type": "AI",
         "Device": "Room temperature sensor"
-      }
-    }
-  },
-  "4.10.1": {
-    "name": "Chillers",
-    "data": {
-      "CH on/off": {
-        "Required?": "R",
-        "Type": "DO",
-        "Device": "DI on chiller control panel or through network interface; typ. each chiller"
-      },
-      "Chiller status": {
-        "Required?": "R",
-        "Type": "DI",
-        "Device": "DO on chiller control panel or through network interface; typ. each chiller"
-      },
-      "CHWST Setpoint Reset": {
-        "Required?": "R",
-        "Type": "AO",
-        "Device": "AI on chiller control panel or through network interface; typ. each chiller"
-      },
-      "Chiller Fault Code": {
-        "Required?": "R",
-        "Type": "AI",
-        "Device": "From chiller controller through network interface; typ. each chiller"
-      },
-      "CH CHW isolation valve": {
-        "Required?": "A",
-        "Type": "AO or DO",
-        "Device": "Modulating or 2-position butterfly valve, line size; typ. each chiller"
-      },
-      "CH CHW isolation valve closed end switch": {
-        "Required?": "O",
-        "Type": "DI",
-        "Device": "Valve end switch contact; typ. each chiller"
-      },
-      "CH CHW isolation valve open end switch": {
-        "Required?": "O",
-        "Type": "DI",
-        "Device": "Valve end switch contact; typ. each chiller"
-      },
-      "CH CHW isolation valve position feedback": {
-        "Required?": "O",
-        "Type": "AI",
-        "Device": "Valve position feedback contact; typ. each chiller"
-      },
-      "CH CHW bypass valve": {
-        "Required?": "A",
-        "Type": "DO",
-        "Device": "2-position butterfly valve, line size; typ. each chiller for series chiller plants; only one for parallel chiller plants"
-      },
-      "CH CW isolation valve": {
-        "Required?": "A",
-        "Type": "AO or DO",
-        "Device": "Modulating or 2-position butterfly valve, line size; typ. each chiller"
-      },
-      "CH CW isolation valve closed end switch": {
-        "Required?": "O",
-        "Type": "DI",
-        "Device": "Valve end switch contact; typ. each chiller"
-      },
-      "CH CW isolation valve open end switch": {
-        "Required?": "O",
-        "Type": "DI",
-        "Device": "Valve end switch contact; typ. each chiller"
-      },
-      "CH CW isolation valve position feedback": {
-        "Required?": "O",
-        "Type": "AI",
-        "Device": "Valve position feedback contact; typ. each chiller"
-      },
-      "CH Demand Limit": {
-        "Required?": "A",
-        "Type": "AO",
-        "Device": "AI on chiller control panel or through network interface; typ. each chiller"
-      },
-      "Head pressure control signal from CH": {
-        "Required?": "A",
-        "Type": "AI",
-        "Device": "AO from chiller control panel; typ. each chiller"
-      },
-      "CH CHW supply temperature": {
-        "Required?": "A",
-        "Type": "AI",
-        "Device": "From chiller controller via interface or via temperature sensor; typ. each chiller"
-      },
-      "CH CW return temperature": {
-        "Required?": "A",
-        "Type": "AI",
-        "Device": "From chiller controller via interface or via temperature sensor; typ. each chiller"
-      },
-      "CH CHW return temperature": {
-        "Required?": "O",
-        "Type": "AI",
-        "Device": "From chiller controller via interface or via temperature sensor; typ. each chiller"
-      },
-      "CH CW supply temperature": {
-        "Required?": "O",
-        "Type": "AI",
-        "Device": "From chiller controller via interface or via temperature sensor; typ. each chiller"
-      },
-      "CH evaporator buddle CHW differential pressure": {
-        "Required?": "O",
-        "Type": "AI",
-        "Device": "From chiller controller via interface or via temperature sensor; typ. each chiller"
-      },
-      "CH condenser buddle CW differential pressure": {
-        "Required?": "O",
-        "Type": "AI",
-        "Device": "From chiller controller via interface or via temperature sensor; typ. each chiller"
-      },
-      "CH refrigerant evaporator temperature": {
-        "Required?": "O",
-        "Type": "AI",
-        "Device": "From chiller controller via interface; typ. each chiller"
-      },
-      "CH refrigerant condenser temperature": {
-        "Required?": "O",
-        "Type": "AI",
-        "Device": "From chiller controller via interface; typ. each chiller"
-      },
-      "Chiller local/auto switch": {
-        "Required?": "O",
-        "Type": "DI",
-        "Device": "From chiller controller via interface; typ. each chiller"
       }
     }
   },
@@ -647,10 +552,20 @@
         "Type": "DI",
         "Device": "Status through VFD interface, VFD status contact or current switch; typ. each CHWP"
       },
+      "Provide one speed point for each group of variable speed CHW pumps controlled to the same speed (e.g., all primary pumps or all secondary pumps, if applicable). Speed point not required for constant speed pumps.": {
+        "Required?": "Provide one speed point for each group of variable speed CHW pumps controlled to the same speed (e.g., all primary pumps or all secondary pumps, if applicable). Speed point not required for constant speed pumps.",
+        "Type": "Provide one speed point for each group of variable speed CHW pumps controlled to the same speed (e.g., all primary pumps or all secondary pumps, if applicable). Speed point not required for constant speed pumps.",
+        "Device": "Provide one speed point for each group of variable speed CHW pumps controlled to the same speed (e.g., all primary pumps or all secondary pumps, if applicable). Speed point not required for constant speed pumps."
+      },
       "CHWP Speed": {
         "Required?": "A",
         "Type": "AO",
         "Device": "Connect to VFD Speed on all CHW pumps controlled to same speed"
+      },
+      "Provide a CHW differential pressure sensor hardwired to the pump controller for any pump or set of pumps serving multiple control valves. Additional pressure sensors may be provided with feedback sent over the network to the pump controller.": {
+        "Required?": "Provide a CHW differential pressure sensor hardwired to the pump controller for any pump or set of pumps serving multiple control valves. Additional pressure sensors may be provided with feedback sent over the network to the pump controller.",
+        "Type": "Provide a CHW differential pressure sensor hardwired to the pump controller for any pump or set of pumps serving multiple control valves. Additional pressure sensors may be provided with feedback sent over the network to the pump controller.",
+        "Device": "Provide a CHW differential pressure sensor hardwired to the pump controller for any pump or set of pumps serving multiple control valves. Additional pressure sensors may be provided with feedback sent over the network to the pump controller."
       },
       "CHW Differential Pressure": {
         "Required?": "A",
@@ -667,25 +582,50 @@
   "4.10.3": {
     "name": "Primary CHW Loop",
     "data": {
+      "CHW flow required for primary-only plants; the flow meter must be located on the plant side of the CHW minimum flow bypass where provided. Optional for variable primary-variable secondary plants. Not required nor recommended for constant primary-variable secondary plants.": {
+        "Required?": "CHW flow required for primary-only plants; the flow meter must be located on the plant side of the CHW minimum flow bypass where provided. Optional for variable primary-variable secondary plants. Not required nor recommended for constant primary-variable secondary plants.",
+        "Type": "CHW flow required for primary-only plants; the flow meter must be located on the plant side of the CHW minimum flow bypass where provided. Optional for variable primary-variable secondary plants. Not required nor recommended for constant primary-variable secondary plants.",
+        "Device": "CHW flow required for primary-only plants; the flow meter must be located on the plant side of the CHW minimum flow bypass where provided. Optional for variable primary-variable secondary plants. Not required nor recommended for constant primary-variable secondary plants."
+      },
       "CHW supply or return flow": {
         "Required?": "A",
         "Type": "AI",
         "Device": "Flow meter"
+      },
+      "CHW bypass valve is required for variable flow primary-only plants. Delete otherwise.": {
+        "Required?": "CHW bypass valve is required for variable flow primary-only plants. Delete otherwise.",
+        "Type": "CHW bypass valve is required for variable flow primary-only plants. Delete otherwise.",
+        "Device": "CHW bypass valve is required for variable flow primary-only plants. Delete otherwise."
       },
       "CHW Min Flow Bypass Valve": {
         "Required?": "A",
         "Type": "AO",
         "Device": "Modulating valve sized for minimum flow of one chiller"
       },
+      "CHW supply temperature sensor required for primary-only plants. Optional for primary-secondary Plants.": {
+        "Required?": "CHW supply temperature sensor required for primary-only plants. Optional for primary-secondary Plants.",
+        "Type": "CHW supply temperature sensor required for primary-only plants. Optional for primary-secondary Plants.",
+        "Device": "CHW supply temperature sensor required for primary-only plants. Optional for primary-secondary Plants."
+      },
       "CHW supply temperature": {
         "Required?": "A",
         "Type": "AI",
         "Device": "Temperature sensor"
       },
+      "CHW return temperature required for primary-only plants; locate on plant side of the CHW minimum flow bypass to allow for correct load calculations. Optional for primary-secondary plants.": {
+        "Required?": "CHW return temperature required for primary-only plants; locate on plant side of the CHW minimum flow bypass to allow for correct load calculations. Optional for primary-secondary plants.",
+        "Type": "CHW return temperature required for primary-only plants; locate on plant side of the CHW minimum flow bypass to allow for correct load calculations. Optional for primary-secondary plants.",
+        "Device": "CHW return temperature required for primary-only plants; locate on plant side of the CHW minimum flow bypass to allow for correct load calculations. Optional for primary-secondary plants."
+      },
       "Plant CHW return temperature": {
         "Required?": "A",
         "Type": "AI",
         "Device": "Temperature sensor"
+      },
+      "Optional sensor for monitoring temperature coming back from coils in primary-only plants with a CHW bypass and no waterside economizer. Located on the load side of minimum flow bypass. Delete for all other plant configurations.": {
+        "Required?": "Optional sensor for monitoring temperature coming back from coils in primary-only plants with a CHW bypass and no waterside economizer. Located on the load side of minimum flow bypass. Delete for all other plant configurations.",
+        "Type": "Optional sensor for monitoring temperature coming back from coils in primary-only plants with a CHW bypass and no waterside economizer. Located on the load side of minimum flow bypass. Delete for all other plant configurations.",
+        "Device": "Optional sensor for monitoring temperature coming back from coils in primary-only plants with a CHW bypass and no waterside economizer. Located on the load side of minimum flow bypass. Delete for all other plant configurations."
       },
       "Loop CHW return temperature": {
         "Required?": "O",
@@ -696,6 +636,11 @@
         "Required?": "O",
         "Type": "AI",
         "Device": "Gauge pressure transducer"
+      },
+      "Optional flow meter for primary pump speed control in variable primary-variable secondary plants.": {
+        "Required?": "Optional flow meter for primary pump speed control in variable primary-variable secondary plants.",
+        "Type": "Optional flow meter for primary pump speed control in variable primary-variable secondary plants.",
+        "Device": "Optional flow meter for primary pump speed control in variable primary-variable secondary plants."
       },
       "Decoupler flow": {
         "Required?": "O",
@@ -711,6 +656,11 @@
         "Required?": "R",
         "Type": "AI",
         "Device": "Temperature sensor"
+      },
+      "Retain this sensor for primary-secondary plants without waterside economizers. Delete otherwise. For plants with waterside economizers, this reading is captured by the sensor upstream of the WSE defined in 4.10.8.": {
+        "Required?": "Retain this sensor for primary-secondary plants without waterside economizers. Delete otherwise. For plants with waterside economizers, this reading is captured by the sensor upstream of the WSE defined in 4.10.8.",
+        "Type": "Retain this sensor for primary-secondary plants without waterside economizers. Delete otherwise. For plants with waterside economizers, this reading is captured by the sensor upstream of the WSE defined in 4.10.8.",
+        "Device": "Retain this sensor for primary-secondary plants without waterside economizers. Delete otherwise. For plants with waterside economizers, this reading is captured by the sensor upstream of the WSE defined in 4.10.8."
       },
       "Secondary CHW return temperature": {
         "Required?": "A",
@@ -736,6 +686,11 @@
         "Required?": "R",
         "Type": "DI",
         "Device": "Status through VFD interface, VFD status contact or current switch; typ. each CWP"
+      },
+      "CWP speed is required for WSE applications and optional for others. If VFDs are provided on CWPs in applications where one CWP is dedicated to each chiller, provide a unique CWP speed point per chiller; otherwise a single common speed point is appropriate.": {
+        "Required?": "CWP speed is required for WSE applications and optional for others. If VFDs are provided on CWPs in applications where one CWP is dedicated to each chiller, provide a unique CWP speed point per chiller; otherwise a single common speed point is appropriate. ",
+        "Type": "CWP speed is required for WSE applications and optional for others. If VFDs are provided on CWPs in applications where one CWP is dedicated to each chiller, provide a unique CWP speed point per chiller; otherwise a single common speed point is appropriate.",
+        "Device": "CWP speed is required for WSE applications and optional for others. If VFDs are provided on CWPs in applications where one CWP is dedicated to each chiller, provide a unique CWP speed point per chiller; otherwise a single common speed point is appropriate."
       },
       "CWP Speed": {
         "Required?": "A",
@@ -777,10 +732,20 @@
         "Type": "AI",
         "Device": "Level sensor mounted in standpipe connected to equalizer"
       },
+      "Keep the following inlet and outlet isolation valve points if cooling towers have actuated isolation valves. They may have a valve only on the supply with an oversized equalizer used to avoid valves on the outlet, or they may have valves at both inlet and outlet. Delete otherwise.": {
+        "Required?": "Keep the following inlet and outlet isolation valve points if cooling towers have actuated isolation valves. They may have a valve only on the supply with an oversized equalizer used to avoid valves on the outlet, or they may have valves at both inlet and outlet. Delete otherwise.",
+        "Type": "Keep the following inlet and outlet isolation valve points if cooling towers have actuated isolation valves. They may have a valve only on the supply with an oversized equalizer used to avoid valves on the outlet, or they may have valves at both inlet and outlet. Delete otherwise.",
+        "Device": "Keep the following inlet and outlet isolation valve points if cooling towers have actuated isolation valves. They may have a valve only on the supply with an oversized equalizer used to avoid valves on the outlet, or they may have valves at both inlet and outlet. Delete otherwise."
+      },
       "CT inlet (and outlet) isolation valve": {
         "Required?": "A",
         "Type": "DO",
         "Device": "2-position line size valve; typ. each tower"
+      },
+      "Retain the following two points for optional valve end switch status feedback. Delete otherwise.": {
+        "Required?": "Retain the following two points for optional valve end switch status feedback.  Delete otherwise.",
+        "Type": "Retain the following two points for optional valve end switch status feedback. Delete otherwise.",
+        "Device": "Retain the following two points for optional valve end switch status feedback. Delete otherwise."
       },
       "CT inlet (and outlet) isolation valve closed end switch": {
         "Required?": "O",
@@ -791,6 +756,11 @@
         "Required?": "O",
         "Type": "DI",
         "Device": "Valve end switch contact; typ. each tower"
+      },
+      "Keep the following tower bypass, basin heater, and basin temperature points for freezing climates where basins will not be drained during winter months due to continued plant operation. Delete otherwise.": {
+        "Required?": "Keep the following tower bypass, basin heater, and basin temperature points for freezing climates where basins will not be drained during winter months due to continued plant operation. Delete otherwise.",
+        "Type": "Keep the following tower bypass, basin heater, and basin temperature points for freezing climates where basins will not be drained during winter months due to continued plant operation. Delete otherwise.",
+        "Device": "Keep the following tower bypass, basin heater, and basin temperature points for freezing climates where basins will not be drained during winter months due to continued plant operation. Delete otherwise."
       },
       "CT bypass valve to cold water basin": {
         "Required?": "A",
@@ -812,6 +782,11 @@
         "Type": "AI",
         "Device": "Temperature sensor; typ. each tower"
       },
+      "Keep the following piping heat trace points for freezing climates with outdoor piping. Delete otherwise.": {
+        "Required?": "Keep the following piping heat trace points for freezing climates with outdoor piping. Delete otherwise.",
+        "Type": "Keep the following piping heat trace points for freezing climates with outdoor piping. Delete otherwise.",
+        "Device": "Keep the following piping heat trace points for freezing climates with outdoor piping. Delete otherwise."
+      },
       "Piping heat trace enable": {
         "Required?": "A",
         "Type": "DO",
@@ -827,10 +802,20 @@
   "4.10.7": {
     "name": "Condenser Water Loop",
     "data": {
+      "If controlling cooling towers to maintain CWST (see 5.20.12.2), CWST sensor must be hardwired to the same controller as the cooling towers.": {
+        "Required?": "If controlling cooling towers to maintain CWST (see 5.20.12.2), CWST sensor must be hardwired to the same controller as the cooling towers.",
+        "Type": "If controlling cooling towers to maintain CWST (see 5.20.12.2), CWST sensor must be hardwired to the same controller as the cooling towers.",
+        "Device": "If controlling cooling towers to maintain CWST (see 5.20.12.2), CWST sensor must be hardwired to the same controller as the cooling towers."
+      },
       "Common CW supply temperature from towers": {
         "Required?": "R",
         "Type": "AI",
         "Device": "Temperature sensor"
+      },
+      "If controlling cooling towers to maintain CWRT (as opposed to CWST, see 5.20.12.2), CWRT sensor must be hardwired to the same controller as the cooling towers.": {
+        "Required?": "If controlling cooling towers to maintain CWRT (as opposed to CWST, see 5.20.12.2), CWRT sensor must be hardwired to the same controller as the cooling towers.",
+        "Type": "If controlling cooling towers to maintain CWRT (as opposed to CWST, see 5.20.12.2), CWRT sensor must be hardwired to the same controller as the cooling towers.",
+        "Device": "If controlling cooling towers to maintain CWRT (as opposed to CWST, see 5.20.12.2), CWRT sensor must be hardwired to the same controller as the cooling towers."
       },
       "Common CW return temperature to towers": {
         "Required?": "R",
@@ -851,6 +836,11 @@
         "Required?": "R",
         "Type": "DO",
         "Device": "2-position line size valve"
+      },
+      "Retain the following two points for optional valve end switch status feedback.": {
+        "Required?": "Retain the following two points for optional valve end switch status feedback.",
+        "Type": "Retain the following two points for optional valve end switch status feedback.",
+        "Device": "Retain the following two points for optional valve end switch status feedback."
       },
       "WSE HX CW isolation valve closed end switch": {
         "Required?": "O",
@@ -877,6 +867,11 @@
         "Type": "AI",
         "Device": "Temperature sensor"
       },
+      "Retain the following two points if CHW flowrate through the heat exchanger is controlled by a modulating bypass valve. Delete otherwise.": {
+        "Required?": "Retain the following two points if CHW flowrate through the heat exchanger is controlled by a modulating bypass valve. Delete otherwise.",
+        "Type": "Retain the following two points if CHW flowrate through the heat exchanger is controlled by a modulating bypass valve. Delete otherwise.",
+        "Device": "Retain the following two points if CHW flowrate through the heat exchanger is controlled by a modulating bypass valve. Delete otherwise."
+      },
       "WSE CHW bypass valve": {
         "Required?": "A",
         "Type": "AO",
@@ -886,6 +881,11 @@
         "Required?": "A",
         "Type": "AI",
         "Device": "Differential pressure transducer"
+      },
+      "Retain the following four points if the plant has a waterside economizer and CHW flowrate through the heat exchanger is controlled by a heat exchanger pump. Delete otherwise. Note: WSE entering CHW temperatures is located in the pipe entering the HX, not the CHWR main upstream of the WSE.": {
+        "Required?": "Retain the following four points if the plant has a waterside economizer and CHW flowrate through the heat exchanger is controlled by a heat exchanger pump. Delete otherwise. Note: WSE entering CHW temperatures is located in the pipe entering the HX, not the CHWR main upstream of the WSE.",
+        "Type": "Retain the following four points if the plant has a waterside economizer and CHW flowrate through the heat exchanger is controlled by a heat exchanger pump. Delete otherwise. Note: WSE entering CHW temperatures is located in the pipe entering the HX, not the CHWR main upstream of the WSE.",
+        "Device": "Retain the following four points if the plant has a waterside economizer and CHW flowrate through the heat exchanger is controlled by a heat exchanger pump. Delete otherwise. Note: WSE entering CHW temperatures is located in the pipe entering the HX, not the CHWR main upstream of the WSE."
       },
       "CHW HX Pump Start": {
         "Required?": "A",
@@ -917,6 +917,11 @@
   "4.10.9": {
     "name": "Miscellaneous Plant Points",
     "data": {
+      "Temperature and relative humidity sensors are necessary for calculating wet bulb temperature for waterside economizer sequences. Sensors are optional for plants without waterside economizers.": {
+        "Required?": "Temperature and relative humidity sensors are necessary for calculating wet bulb temperature for waterside economizer sequences. Sensors are optional for plants without waterside economizers. ",
+        "Type": "Temperature and relative humidity sensors are necessary for calculating wet bulb temperature for waterside economizer sequences. Sensors are optional for plants without waterside economizers.",
+        "Device": "Temperature and relative humidity sensors are necessary for calculating wet bulb temperature for waterside economizer sequences. Sensors are optional for plants without waterside economizers."
+      },
       "Outdoor Air Temperature": {
         "Required?": "A",
         "Type": "AI",
@@ -926,6 +931,11 @@
         "Required?": "A",
         "Type": "AI",
         "Device": "Relative humidity sensor"
+      },
+      "The Emergency Chiller Off switch is required by most codes and ASHRAE Standard 15. This point is not needed if Emergency Chiller Off switch is hardwired to shut off chillers.": {
+        "Required?": "The Emergency Chiller Off switch is required by most codes and ASHRAE Standard 15. This point is not needed if Emergency Chiller Off switch is hardwired to shut off chillers.",
+        "Type": "The Emergency Chiller Off switch is required by most codes and ASHRAE Standard 15. This point is not needed if Emergency Chiller Off switch is hardwired to shut off chillers.",
+        "Device": "The Emergency Chiller Off switch is required by most codes and ASHRAE Standard 15. This point is not needed if Emergency Chiller Off switch is hardwired to shut off chillers."
       },
       "Emergency Chiller Off Switch": {
         "Required?": "O",
@@ -947,15 +957,30 @@
         "Type": "AO",
         "Device": "AI to boiler control panels or AI through boiler network interfaces."
       },
+      "Optional point for monitoring boiler firing rate.": {
+        "Required?": "Optional point for monitoring boiler firing rate.",
+        "Type": "Optional point for monitoring boiler firing rate.",
+        "Device": "Optional point for monitoring boiler firing rate."
+      },
       "Boiler firing rate": {
         "Required?": "O",
         "Type": "AI",
         "Device": "Firing rate from boiler controller (may be via network connection rather than hardwired). Use gas valve position if firing rate is not known. Typ. each boiler."
       },
+      "Required for boiler plants with headered primary pumps. Delete otherwise.": {
+        "Required?": "Required for boiler plants with headered primary pumps. Delete otherwise.",
+        "Type": "Required for boiler plants with headered primary pumps. Delete otherwise.",
+        "Device": "Required for boiler plants with headered primary pumps. Delete otherwise."
+      },
       "Boiler isolation valve": {
         "Required?": "A",
         "Type": "DO",
         "Device": "2-position line sized valve; typ. each boiler"
+      },
+      "Retain the following two points for optional valve end switch status feedback.": {
+        "Required?": "Retain the following two points for optional valve end switch status feedback.",
+        "Type": "Retain the following two points for optional valve end switch status feedback.",
+        "Device": "Retain the following two points for optional valve end switch status feedback."
       },
       "Boiler isolation valve closed end switch": {
         "Required?": "O",
@@ -987,10 +1012,20 @@
         "Type": "DI",
         "Device": "Status through VFD interface or VFD status contact or current switch; typ. each HWP"
       },
+      "Provide one speed point for each group of variable speed HW pumps controlled to the same speed (e.g. all primary pumps or all secondary pumps, if applicable). Speed point not required for constant speed pumps.": {
+        "Required?": "Provide one speed point for each group of variable speed HW pumps controlled to the same speed (e.g. all primary pumps or all secondary pumps, if applicable). Speed point not required for constant speed pumps.",
+        "Type": "Provide one speed point for each group of variable speed HW pumps controlled to the same speed (e.g. all primary pumps or all secondary pumps, if applicable). Speed point not required for constant speed pumps.",
+        "Device": "Provide one speed point for each group of variable speed HW pumps controlled to the same speed (e.g. all primary pumps or all secondary pumps, if applicable). Speed point not required for constant speed pumps."
+      },
       "HWP Speed": {
         "Required?": "A",
         "Type": "AO",
         "Device": "Connect to VFD Speed on all HW pumps controlled to same speed"
+      },
+      "Provide a HW differential pressure sensor hardwired to the pump controller for any pump or set of pumps serving multiple control valves. Additional pressure sensors may be provided with feedback sent over the network to the pump controller.": {
+        "Required?": "Provide a HW differential pressure sensor hardwired to the pump controller for any pump or set of pumps serving multiple control valves. Additional pressure sensors may be provided with feedback sent over the network to the pump controller.",
+        "Type": "Provide a HW differential pressure sensor hardwired to the pump controller for any pump or set of pumps serving multiple control valves. Additional pressure sensors may be provided with feedback sent over the network to the pump controller.",
+        "Device": "Provide a HW differential pressure sensor hardwired to the pump controller for any pump or set of pumps serving multiple control valves. Additional pressure sensors may be provided with feedback sent over the network to the pump controller."
       },
       "HW Differential Pressure": {
         "Required?": "A",
@@ -1007,25 +1042,50 @@
   "4.11.3": {
     "name": "Primary HW Loop",
     "data": {
+      "HW flow required for primary-only plants; the flow meter must be located on the plant side of the HW minimum flow bypass where provided. Optional for variable primary-variable secondary plants. Not required nor recommended for constant primary-variable secondary plants.": {
+        "Required?": "HW flow required for primary-only plants; the flow meter must be located on the plant side of the HW minimum flow bypass where provided. Optional for variable primary-variable secondary plants. Not required nor recommended for constant primary-variable secondary plants.",
+        "Type": "HW flow required for primary-only plants; the flow meter must be located on the plant side of the HW minimum flow bypass where provided. Optional for variable primary-variable secondary plants. Not required nor recommended for constant primary-variable secondary plants.",
+        "Device": "HW flow required for primary-only plants; the flow meter must be located on the plant side of the HW minimum flow bypass where provided. Optional for variable primary-variable secondary plants. Not required nor recommended for constant primary-variable secondary plants."
+      },
       "HW supply or return flow": {
         "Required?": "A",
         "Type": "AI",
         "Device": "Flow meter"
+      },
+      "HW bypass valve is required for variable flow primary-only plants with boilers with non-zero minimum flow. Delete otherwise.": {
+        "Required?": "HW bypass valve is required for variable flow primary-only plants with boilers with non-zero minimum flow. Delete otherwise.",
+        "Type": "HW bypass valve is required for variable flow primary-only plants with boilers with non-zero minimum flow. Delete otherwise.",
+        "Device": "HW bypass valve is required for variable flow primary-only plants with boilers with non-zero minimum flow. Delete otherwise."
       },
       "HW Min flow bypass valve": {
         "Required?": "A",
         "Type": "AO",
         "Device": "Modulating valve sized for minimum flow of one boiler"
       },
+      "HW supply temperature sensor required for primary-only plants. Optional for primary-secondary plants.": {
+        "Required?": "HW supply temperature sensor required for primary-only plants. Optional for primary-secondary plants.",
+        "Type": "HW supply temperature sensor required for primary-only plants. Optional for primary-secondary plants.",
+        "Device": "HW supply temperature sensor required for primary-only plants. Optional for primary-secondary plants."
+      },
       "HW supply temperature": {
         "Required?": "A",
         "Type": "AI",
         "Device": "Temperature sensor"
       },
+      "HW return temperature is required for primary-only plants and primary-secondary plants with non-condensing boilers. For primary-only plants, locate on plant side of the HW minimum flow bypass to allow for correct load calculations.": {
+        "Required?": "HW return temperature is required for primary-only plants and primary-secondary plants with non-condensing boilers. For primary-only plants, locate on plant side of the HW minimum flow bypass to allow for correct load calculations.",
+        "Type": "HW return temperature is required for primary-only plants and primary-secondary plants with non-condensing boilers. For primary-only plants, locate on plant side of the HW minimum flow bypass to allow for correct load calculations.",
+        "Device": "HW return temperature is required for primary-only plants and primary-secondary plants with non-condensing boilers. For primary-only plants, locate on plant side of the HW minimum flow bypass to allow for correct load calculations."
+      },
       "Plant HW return temperature": {
         "Required?": "A",
         "Type": "AI",
         "Device": "Temperature sensor"
+      },
+      "Optional sensor for monitoring temperature coming back from coils in primary-only plants with a HW bypass. Delete for all other plant configurations.": {
+        "Required?": "Optional sensor for monitoring temperature coming back from coils in primary-only plants with a HW bypass. Delete for all other plant configurations.",
+        "Type": "Optional sensor for monitoring temperature coming back from coils in primary-only plants with a HW bypass. Delete for all other plant configurations.",
+        "Device": "Optional sensor for monitoring temperature coming back from coils in primary-only plants with a HW bypass. Delete for all other plant configurations."
       },
       "Loop HW return temperature": {
         "Required?": "O",
@@ -1036,6 +1096,11 @@
         "Required?": "O",
         "Type": "AI",
         "Device": "Gauge pressure transducer"
+      },
+      "Optional flow meter for primary pump speed control in variable primary-variable secondary plants.": {
+        "Required?": "Optional flow meter for primary pump speed control in variable primary-variable secondary plants.",
+        "Type": "Optional flow meter for primary pump speed control in variable primary-variable secondary plants.",
+        "Device": "Optional flow meter for primary pump speed control in variable primary-variable secondary plants."
       },
       "Decoupler flow": {
         "Required?": "O",
@@ -1062,6 +1127,11 @@
         "Type": "AI",
         "Device": "Flow meter"
       },
+      "Retain the following sensor for hybrid boiler plants. Delete otherwise. Sensor is to be located in the secondary loop downstream of the condensing boiler primary loop decoupler but upstream of the non-condensing boiler primary loop decoupler.": {
+        "Re-quired?": "Retain the following sensor for hybrid boiler plants. Delete otherwise. Sensor is to be located in the secondary loop downstream of the condensing boiler primary loop decoupler but upstream of the non-condensing boiler primary loop decoupler.",
+        "Type": "Retain the following sensor for hybrid boiler plants. Delete otherwise. Sensor is to be located in the secondary loop downstream of the condensing boiler primary loop decoupler but upstream of the non-condensing boiler primary loop decoupler.",
+        "Device": "Retain the following sensor for hybrid boiler plants. Delete otherwise. Sensor is to be located in the secondary loop downstream of the condensing boiler primary loop decoupler but upstream of the non-condensing boiler primary loop decoupler."
+      },
       "Intermediate HW supply temperature": {
         "Re-quired?": "A",
         "Type": "AI",
@@ -1080,14 +1150,14 @@
       "Fan speed": {
         "Required?": "R",
         "Type": "AO",
-        "Device": "Connect to VFD or ECM Speed "
+        "Device": "Connect to VFD or ECM Speed"
       },
-      "Supply fan status ": {
+      "Supply fan status": {
         "Required?": "O",
         "Type": "DI",
-        "Device": "Connect to VFD Status or ECM Status or to current switch "
+        "Device": "Connect to VFD Status or ECM Status or to current switch"
       },
-      "Supply air temperature ": {
+      "Supply air temperature": {
         "Required?": "R",
         "Type": "AI",
         "Device": "Duct temperature sensor"
@@ -1110,7 +1180,7 @@
       "Cooling signal": {
         "Required?": "R",
         "Type": "AO",
-        "Device": "Modulating CHW valve OR Floating actuator  OR Variable-capacity compressor"
+        "Device": "Modulating CHW valve OR Floating actuator OR Variable-capacity compressor"
       },
       "For FCUs with a heating coil, include the following point:": {
         "Required?": "For FCUs with a heating coil, include the following point:",
@@ -1120,9 +1190,9 @@
       "Heating signal": {
         "Required?": "R",
         "Type": "AO",
-        "Device": "Modulating valve OR Floating actuator  OR Modulating electric heating coil  OR Variable-capacity heat pump compressor"
+        "Device": "Modulating valve OR Floating actuator OR Modulating electric heating coil OR Variable-capacity heat pump compressor"
       },
-      "Zone temperature ": {
+      "Zone temperature": {
         "Required?": "R",
         "Type": "AI",
         "Device": "Room temperature sensor"
@@ -1135,14 +1205,14 @@
       "Occupancy sensor (if applicable)": {
         "Required?": "A",
         "Type": "DI",
-        "Device": "Occupancy sensor "
+        "Device": "Occupancy sensor"
       },
       "Window switch (if applicable)": {
         "Required?": "A",
         "Type": "DI",
         "Device": "Window switch"
       },
-      "Zone temperature setpoint adjustment\n(if applicable)": {
+      "Zone temperature setpoint adjustment (if applicable)": {
         "Required?": "A",
         "Type": "AI",
         "Device": "Zone thermostat adjustment"
