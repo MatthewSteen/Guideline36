@@ -11,20 +11,18 @@ jobs:
       # To use this repository's private action,
       # you must check out the repository
       - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          ref: dummy-data
+        uses: actions/checkout@v4
 
       - name: Generate Directory Listings
         uses: jayanta525/github-pages-directory-listing@main
         with:
-          FOLDER: data
+          FOLDER: .
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload generator folder
-          path: 'data'
+          path: '.'
 
   deploy:
     needs: pages-directory-listing
